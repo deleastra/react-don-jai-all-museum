@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Rufina;
 }
 
 .App-link {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: Roboto;
+}
+
+.header-font {
+  font-family: Rufina !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #E37222E8;
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+}
+
+.btn-sign-up {
+  color: #E37222E8 !important;
+  background-color: #FFFFFF !important;
 }
