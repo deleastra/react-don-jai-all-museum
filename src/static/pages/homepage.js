@@ -1,7 +1,6 @@
-import './App.css';
 import { Button } from 'react-bootstrap';
 
-function App() {
+function HomePage() {
   return (
     <div className='main'>
       <header className='main-header'>
@@ -16,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

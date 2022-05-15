@@ -7,7 +7,7 @@ body {
 .main {
   padding-top: 10%;
   text-align: center;
-  background-image: url("static/media/3fb2265b-a89c-4c3d-afdf-6c24e3f73391.png");
+  background-image: url("../media/3fb2265b-a89c-4c3d-afdf-6c24e3f73391.png");
   background-size: cover;
   padding-bottom: 10%;
 }

@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
-import App from './App';
+import './static/css/styles.css';
+import HomePage from './static/pages/homepage';
 import reportWebVitals from './reportWebVitals';
-import TopNavBar from './TopNavBar';
-import BottomBar from './BottomBar';
+import TopBar from './static/pages/TopBar';
+import BottomBar from './static/pages/BottomBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TopNavBar />
-    <App />
+    <TopBar />
+    <HomePage />
     <BottomBar />
   </React.StrictMode>
 );

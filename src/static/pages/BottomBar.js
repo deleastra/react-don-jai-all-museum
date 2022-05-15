@@ -1,7 +1,6 @@
-import trade from './static/media/trade.png'
-import privacy from './static/media/privacy.png'
-import copyright from './static/media/copyright.png'
-import {Nav, Navbar, Container, Button} from 'react-bootstrap'
+import trade from '../media/trade.png'
+import privacy from '../media/privacy.png'
+import copyright from '../media/copyright.png'
 function BottomBar() {
     return (
             <div className='row buttom-bar'>

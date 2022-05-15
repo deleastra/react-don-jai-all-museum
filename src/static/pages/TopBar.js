@@ -1,7 +1,7 @@
 import {Nav, Navbar, Container, Button} from 'react-bootstrap'
-function TopNavBar() {
+function TopBar() {
     return (
-        <Navbar fixed="top" bg=''>
+        <Navbar fixed="top">
             <Container>
                 <Navbar.Brand href="#home">DONJAI ALL</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,4 +16,4 @@ function TopNavBar() {
     )
 }
 
-export default TopNavBar;
+export default TopBar;
