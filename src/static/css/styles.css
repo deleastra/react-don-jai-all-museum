@@ -22,12 +22,13 @@ body {
   background-color: #E37222E8;
 }
 
-.navbar-brand {
-  color: #FFFFFF !important;
-}
 
 .nav-link {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #000000;
 }
 
 .buttom-bar {
@@ -41,18 +42,22 @@ body {
 }
 
 .buttom-bar a:hover {
-  color: #000000;
+  color: #212529;
 }
 
 /* Button */
+.btn:hover {
+  color: #000000;
+}
+
 .btn-sign-up {
-  color: #E37222E8 !important;
-  background-color: #FFFFFF !important;
+  color: #E37222E8;
+  background-color: #FFFFFF;
 }
 
 .btn-book {
-  color: #FFFFFF !important;
-  background-color: #F7B733B2 !important;
+  color: #FFFFFF;
+  background-color: #F7B733B2;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 5px;
   font-size: 1.2rem;

@@ -1,16 +1,18 @@
-import {Nav, Navbar, Container, Button} from 'react-bootstrap'
+import {Navbar, Container} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
+
 function TopBar() {
     return (
-        <Navbar fixed="top">
+        <Navbar fixed='top'>
             <Container>
-                <Navbar.Brand href="#home">DONJAI ALL</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#about">About us</Nav.Link>
-                <Nav.Link href="#book">Book ticket</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-                <Nav.Link href="#login">Log in</Nav.Link>
-                <Button variant="sign-up">Sign up</Button>
+                <Link className='navbar-expand nav-link' to='/home'>DONJAI ALL</Link>
+                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+                <Link className='nav-link' to='/home'>Home</Link>
+                <Link className='nav-link' to='/about'>About us</Link>
+                <Link className='nav-link' to='/book'>Book ticket</Link>
+                <Link className='nav-link' to='/contact'>Contact</Link>
+                <Link className='nav-link' to='/login'>Log in</Link>
+                <Link className='btn btn-sign-up' to='/login'>Sign up</Link>
             </Container>
         </Navbar>
     )
