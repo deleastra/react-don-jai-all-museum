@@ -5,12 +5,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import './static/css/styles.css';
 
 // pages
 import HomePage from './static/pages/homepage';
-import TopBar from './static/pages/TopBar';
-import BottomBar from './static/pages/BottomBar';
+import TopBar from './static/pages/topbar';
+import BottomBar from './static/pages/buttombar';
+import SignUp from './static/pages/signup';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +21,7 @@ root.render(
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<><TopBar /><HomePage /><BottomBar /></>} />
+    <Route path="/signup" element={<><TopBar /> <SignUp /></>} />
   </Routes>
   </BrowserRouter>
 );
