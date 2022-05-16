@@ -18,6 +18,10 @@ body {
   font-family: Rufina;
 }
 
+.font-rufi {
+  font-family: Rufina;
+}
+
 /* signup */
 .sign-up {
   padding-top: 12%;
@@ -30,8 +34,6 @@ body {
   color: #FFFFFF;
   background-color: rgba(226, 78, 66, 0.82);
   border-radius: 15px;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
   height: 100%;
 }
 .sign-up .hello .btn {
@@ -142,6 +144,10 @@ body {
   margin-top: 2rem;
 }
 
+.font-08 {
+  font-size: .8rem;
+}
+
 .font-12 {
   font-size: 1.2rem;
 }
@@ -156,4 +162,8 @@ body {
 
 .font-w-500 {
   font-weight: 500;
+}
+
+.text-right {
+  text-align: right !important;
 }

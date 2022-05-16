@@ -13,6 +13,7 @@ import HomePage from './static/pages/homepage';
 import TopBar from './static/pages/topbar';
 import BottomBar from './static/pages/buttombar';
 import SignUp from './static/pages/signup';
+import SignIn from './static/pages/signin';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -22,6 +23,7 @@ root.render(
   <Routes>
     <Route path="/" element={<><TopBar /><HomePage /><BottomBar /></>} />
     <Route path="/signup" element={<><TopBar /> <SignUp /></>} />
+    <Route path="/login" element={<><TopBar /> <SignIn /></>} />
   </Routes>
   </BrowserRouter>
 );
